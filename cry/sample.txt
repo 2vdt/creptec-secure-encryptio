@@ -1,0 +1,23 @@
+// Check if email already exists
+    // $stmt = $conn->prepare("SELECT id FROM users WHERE email = ?");
+    // $stmt->bind_param("s", $email);
+    // $stmt->execute();
+    // $stmt->store_result();
+    // if ($stmt->num_rows > 0) {
+    //     echo "<script>alert('Email already registered');</script>";
+    // } else {
+    //     // Hash the password
+    //     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+    //     // Insert new user
+    //     $stmt = $conn->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, ?)");
+    //     die("$stmt");
+    //     // $stmt->bind_param("sss", $name, $email, $hashed_password);
+    //     if ($stmt->execute()) {
+    //         echo "<script>alert('Registration successful! Please log in.');</script>";
+    //     } else {
+    //         echo "<script>alert('Registration failed. Please try again.');</script>";
+    //     }
+    // }
+    // $stmt->close();
+    // $conn->close();
