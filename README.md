@@ -1,1 +1,1 @@
-# creptec-secure-encryptio
+# creptec-secure-encryption
